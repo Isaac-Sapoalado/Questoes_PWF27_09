@@ -1,0 +1,35 @@
+a {
+    text-decoration: none;
+}
+a:hover,a:focus{
+    text-decoration-color: blue;
+    background-color: yellow;
+}
+.ft{
+    text-align: right;
+    text-decoration: underline;
+}
+.cite{
+    font-weight: bold;
+    font-style: italic;
+}
+img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 35%;
+}
+
+.icones-sociais a {
+list-style-type: none;
+width: 64px;
+height: 64px;
+display: block;
+text-indent: -99999px;
+}
+
+.github{
+    background-image: url('imagens/github_resized.png');
+    height: 40px;
+    width: 40px;
+}
